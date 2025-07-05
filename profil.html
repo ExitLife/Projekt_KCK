@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profil</title>
+  <link rel="stylesheet" href="globals.css">
+  <link rel="stylesheet" href="profil.css">
+</head>
+<body class="profil">
+
+  <!-- Nagłówek -->
+    <header class="header">
+      <div class="logo-title">
+        <div class="logo-box">LOGO</div>
+        <h1 class="app-title">EventHub</h1>
+      </div>
+    <nav class="navigation">
+      <ul>
+        <li><a href="homepage.html">Strona główna</a></li>
+        <li><a href="wydarzenie.html">Wydarzenie</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="rejestracja.html">Rejestracja</a></li>
+      </ul>
+    </nav>
+    </header>
+
+  <main class="profile-container">
+
+    <section class="profile-header">
+      <!-- Lewa kolumna -->
+      <div class="profile-avatar-section">
+        <div class="profile-avatar">Zdjęcie</div>
+        <p>Imię i nazwisko</p>
+        <p>Członek od</p>
+      </div>
+
+      <!-- Prawa kolumna -->
+      <div class="profile-main-info">
+        <h2>Profil</h2>
+        <form class="profile-form">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="email@example.com" />
+
+          <h3 class="section-title">Preferences</h3>
+
+          <label class="preference-checkbox">
+            <input type="checkbox" id="notifications" />
+            <span>Włącz powiadomienia</span>
+          </label>
+
+        <label class="preference-checkbox">
+            <input type="checkbox" id="darkmode" />
+            <span>Tryb ciemny</span>
+        </label>
+
+
+          <label for="language">Język</label>
+          <select id="language" name="language">
+            <option value="pl">Polski</option>
+            <option value="en">English</option>
+          </select>
+        </form>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section class="profile-activities">
+      <h3 class="section-title">Ostatnie wydarzenia</h3>
+      <div class="activity-grid">
+        <div class="activity-card">
+          <h4>Koncert Jazzowy</h4>
+          <div class="activity-meta">10 czerwca 2025 • Warszawa</div>
+          <div class="activity-description">Uczestniczyłeś w wyjątkowym wieczorze z muzyką na żywo.</div>
+        </div>
+        <div class="activity-card">
+          <h4>Festiwal Filmowy</h4>
+          <div class="activity-meta">1 czerwca 2025 • Kraków</div>
+          <div class="activity-description">Zobaczyłeś 4 filmy w ramach festiwalu niezależnego kina.</div>
+        </div>
+        <div class="activity-card">
+          <h4>Bieg Charytatywny</h4>
+          <div class="activity-meta">20 maja 2025 • Gdańsk</div>
+          <div class="activity-description">Wziąłeś udział w biegu i wsparłeś lokalne schronisko.</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer"></footer>
+
+</body>
+</html>

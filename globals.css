@@ -1,0 +1,106 @@
+/* ========== RESET (Global) ========== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #4a90e2;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+/* ========== Przyciski (Global) ========== */
+.btn {
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn.primary {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: #357ac8;
+}
+
+.btn.secondary {
+  background-color: #d9d9d9;
+  color: #000;
+}
+
+.btn.secondary:hover {
+  background-color: #c4c4c4;
+}
+
+.footer {
+  width: 100%;
+  height: 57px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: auto;
+}
+
+.navigation {
+  margin-left: auto;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.navigation a:hover {
+  background-color: #e4e4e4;
+}

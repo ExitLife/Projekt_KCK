@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ExploreApp – Strona główna</title>
+  <!--<link rel="stylesheet" href="style.css" /> -->
+  <link rel="stylesheet" href="globals.css" />
+  <link rel="stylesheet" href="strona-glowna.css" />
+</head>
+<body>
+  <main class="home-page">
+
+    <!-- Nagłówek -->
+    <header class="header">
+      <div class="logo-title">
+        <div class="logo-box">LOGO</div>
+        <h1 class="app-title">EventHub</h1>
+      </div>
+    <nav class="navigation">
+      <ul>
+        <li><a href="homepage.html">Strona główna</a></li>
+        <li><a href="wydarzenie.html">Wydarzenie</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="rejestracja.html">Rejestracja</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <!-- Pasek nawigacyjny / filtry -->
+    <section class="search-bar">
+      <div class="filters">
+        <button class="filter-button">Filtry ▼</button>
+
+        <div class="date-filter">
+          <input type="date" />
+          <input type="date" />
+        </div>
+
+        <div class="search-field">
+          <input type="text" placeholder="Wyszukiwarka" />
+        </div>
+      </div>
+
+      <div class="recommended">
+        <button>Proponowane dla ciebie</button>
+      </div>
+    </section>
+
+    <!-- Główna zawartość: mapa + wydarzenia -->
+    <section class="main-content">
+      <div class="map-section">
+        <div class="map-placeholder">Mapa</div>
+      </div>
+
+      <aside class="event-list">
+        <article class="event-card">
+          <h3>Nazwa wydarzenia</h3>
+          <p>Ulica 1</p>
+          <span>Ocena: ★★★★☆</span>
+        </article>
+        <article class="event-card">
+          <h3>Nazwa wydarzenia</h3>
+          <p>Ulica 2</p>
+          <span>Ocena: ★★★☆☆</span>
+        </article>
+        <article class="event-card">
+          <h3>Nazwa wydarzenia</h3>
+          <p>Ulica 3</p>
+          <span>Ocena: ★★★★★</span>
+        </article>
+        <!-- Więcej wydarzeń... -->
+      </aside>
+    </section>
+
+    <!-- Stopka -->
+    <footer class="footer"></footer>
+  </main>
+</body>
+</html>

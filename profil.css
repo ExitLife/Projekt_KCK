@@ -1,0 +1,212 @@
+/* ================= Profil ================= */
+
+.profil {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header (nagłówek) */
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo-box {
+  width: 47px;
+  height: 47px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  margin-right: 16px;
+}
+
+.app-title {
+  font-size: 24px;
+  color: #333;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* ================= Kontener profilu ================= */
+
+.profile-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 24px auto;
+  padding: 0 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* ================= Sekcja użytkownika ================= */
+
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.profile-avatar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-avatar {
+  width: 138px;
+  height: 138px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.profile-avatar-section p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.profile-avatar-section p:nth-of-type(2) {
+  color: #aaa;
+}
+
+.profile-info h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.profile-info p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.section-divider {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  width: 100%;
+}
+
+/* ================= Formularz ustawień ================= */
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 500px;
+  align-items: flex-start;
+}
+
+.profile-form label {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.profile-form input,
+.profile-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.preference-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.5;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 0;
+}
+
+.preference-checkbox input {
+  margin: 0;
+}
+
+.preference-checkbox span {
+  margin: 0;
+}
+
+.profile-main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.profile-form .section-title {
+  margin-top: 24px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* ================= Aktywności ================= */
+
+.activity-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.activity-card {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.activity-card h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.activity-card .activity-meta {
+  font-size: 13px;
+  color: #666;
+}
+
+.activity-card .activity-description {
+  font-size: 14px;
+  color: #333;
+}

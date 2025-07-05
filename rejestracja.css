@@ -1,0 +1,190 @@
+/* ======================= Rejestracja ======================= */
+
+.registration-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 32px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  background-color: #eee;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+label {
+  font-size: 14px;
+  color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.password-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-field input {
+  flex: 1;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 8px;
+  padding: 4px 8px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  color: #666;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* OPTIONS & BUTTONS */
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.btn {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn.primary {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn.secondary {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  color: #666;
+}
+
+.btn.small {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* SOCIAL LOGIN */
+.social-login {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.social-login p {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.btn.social {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #444;
+}
+
+.btn.google:hover {
+  background-color: #f2f2f2;
+}
+
+.btn.facebook {
+  background-color: #3b5998;
+  color: white;
+}
+
+.btn.facebook:hover {
+  background-color: #334d84;
+}
+
+.btn.social img {
+  width: 18px;
+  height: 18px;
+}
+
+/* LOGIN LINK */
+.login-link {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.login-link a {
+  font-weight: 500;
+  color: #333;
+}
